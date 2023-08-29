@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>risya</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <header>
+    <!-- place navbar here -->
+    <nav class="navbar navbar-expand-md navbar-light" style="background-color: #8da9bd;">
+        <div class="container">
+        <a class="navbar-brand" href="#">Beranda</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        </div>
+      </div>
+    </nav>
+    
+  </header>
+  <main>
+    <div class="container">
+      <div class="row-cols-8 justify-content-center align-items-start g-2">
+        <br>
+    <h4><center>About Me</center></h4>
+<div class="card">
+  <img class="card-img-top" src="asset/me2.jpg" alt="Title">
+  <div class="card-body">
+    <h4 class="card-title">Risya Heny</h4>
+    <p class="card-text">Hi saya remidi awokawok gara-gara wifinya seperti... </p>
+  </div>
+</div>
+<br>
+<div class="card-group">
+  <div class="card">
+    <img class="card-img-top" src="asset/jotaro.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h4 class="card-title">My fav anime</h4>
+      <p class="card-text">jojo's bizarre adventure</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="asset/lost.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h4 class="card-title">My fav music</h4>
+      <p class="card-text">LosT [Bring Me The Horizon]</p>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+      <p>Kata-kata hari ini </p>
+      <footer class="blockquote-footer">While your nightmare comes to life <cite title="Source title">Nightmare A7X</cite></footer>
+    </blockquote>
+  </div>
+</div>
+<br>
+<!-- Modal trigger button -->
+<center><button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modalId">
+  click here!
+</button></center>
+
+<!-- Modal Body -->
+<!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+<div class="modal fade" id="modalId" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalTitleId">follow my medsos</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-body">
+          <p>awokawok <a class="tribute-link" id="tribute-link" href="https://instagram.com/matitanam___?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" target="_blank"> Instagram</a></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Optional: Place to the bottom of scripts -->
+<script>
+  const myModal = new bootstrap.Modal(document.getElementById('modalId'), options)
+
+</script>
+  </main>
+  <br>
+  <footer>
+    <!-- place footer here -->
+    <div class="alert alert-primary alert-dismissible fade show" role="alert">
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      <strong>Semangat!!</strong> orang sukses cobaannya banyak
+    </div>
+    
+    <script>
+      var alertList = document.querySelectorAll('.alert');
+      alertList.forEach(function (alert) {
+        new bootstrap.Alert(alert)
+      })
+    </script>
+    
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
